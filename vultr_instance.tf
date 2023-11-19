@@ -1,6 +1,6 @@
 locals {
     virtual_machines = {
-        "jasonTest" = { region = "mex", user_data = "scripts/lbWireguardServer.sh"},
+        "wgServer" = { region = "mex", user_data = "scripts/lbWireguardServer.sh"},
         
     }
 }
