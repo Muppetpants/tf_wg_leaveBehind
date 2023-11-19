@@ -2,4 +2,4 @@
 
 
 Simply hard-coded some values from angristan's wireguard script for a quick single-cert wg server 
-test
+
