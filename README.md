@@ -12,7 +12,7 @@ terraform init
 # Add terraform.tfvars file containing the vult api to directory
 # Example below: 
 # VULTR_API_KEY = "ABCD..."
-# Update PoP (currently Mexido) and Plan (currently vc2-1c-1gb)
+# Update PoP (currently Mexico) in line 3 of vultr_instance.tf and Plan (currently vc2-1c-1gb) line 17.
 terraform plan
 terraform apply
 # Enter 'yes' when promoted
